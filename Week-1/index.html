@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workday HCM - HR Management System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Botón de cambio de tema -->
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        🌙
+      </button>
+
+      <!-- Tarjeta Corporativa -->
+      <div class="card" id="businessCard">
+        <!-- Header -->
+        <div class="card-header">
+          <div class="avatar">
+            <img
+              src="https://cdn.aptoide.com/imgs/f/4/a/f4a1f9c4967ea40ec3118bf000cf509b_fgraphic.png"
+              alt="Workday Logo"
+              id="avatarImg"
+            />
+          </div>
+
+          <div class="header-info">
+            <h1 id="userName">Workday HCM</h1>
+            <p class="title">Human Capital Management Platform</p>
+            <p class="location">📍 Pleasanton, California, USA</p>
+          </div>
+        </div>
+
+        <!-- Descripción -->
+        <div class="card-section">
+          <h2>About the Company</h2>
+          <p id="userBio">
+            Plataforma líder en gestión de recursos humanos en la nube.
+          </p>
+        </div>
+
+        <!-- Funcionalidades -->
+        <div class="card-section">
+          <h2>Core HR Modules</h2>
+          <div id="skillsList" class="skills-list"></div>
+          <button id="toggleSkills" class="btn btn-secondary">
+            Mostrar más
+          </button>
+        </div>
+
+        <!-- Enlaces -->
+        <div class="card-section">
+          <h2>Official Links</h2>
+          <div id="socialLinks" class="social-links"></div>
+        </div>
+
+        <!-- Estadísticas -->
+        <div class="card-section">
+          <h2>Global Statistics</h2>
+          <div id="stats" class="stats-grid"></div>
+        </div>
+
+        <!-- Contacto -->
+        <div class="card-section">
+          <h2>Contact Information</h2>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="icon">📧</span>
+              <span>info@workday.com</span>
+              <button id="copyEmailBtn" class="btn btn-small">Copy Info</button>
+            </div>
+            <div class="contact-item">
+              <span class="icon">📱</span>
+              <span>+1 925-951-9000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Workday HCM - Human Resource Management System</p>
+        <p class="small">Proyecto JavaScript ES2023 - SENA</p>
+      </footer>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" class="toast">
+      <span id="toastMessage"></span>
+    </div>
+
+    <script src="starter/script.js"></script>
+  </body>
+</html>
