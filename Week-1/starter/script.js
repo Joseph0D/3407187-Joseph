@@ -1,4 +1,4 @@
-// Datos de la empresa real de sistema de gestión de recursos humanos
+
 const entityData = {
   name: "TechCorp HR Management",
   description:
