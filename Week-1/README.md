@@ -3,9 +3,9 @@
 ## 📋 Información
 
 - **Nombre**: [Joseph Daniel]
-- **Fecha**: [DD/MM/YYYY]
+- **Fecha**: [14/02/2026]
 - **Dominio Asignado**: [Sistema de gestiòn de recursos humanos]
-- **Entidad Principal**: [Qué representa tu ficha]
+- **Entidad Principal**: [Contiene tu información personal, puesto, salario, asistencia y desempeño. Es básicamente tu historial y situación laboral oficial.]
 
 ## 🎯 Descripción
 
