@@ -30,8 +30,8 @@
 
 ## 🎯 Autoevaluación
 
-- Funcionalidad: [X]%
-- Código ES2023: [X]%
-- Código Limpio: [X]%
-- Adaptación al Dominio: [X]%
-- **Total Estimado**: [X]%
+- Funcionalidad: [85]%
+- Código ES2023: [90]%
+- Código Limpio: [90]%
+- Adaptación al Dominio: [85]%
+- **Total Estimado**: [87.5]%
